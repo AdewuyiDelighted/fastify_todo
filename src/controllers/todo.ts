@@ -1,7 +1,6 @@
 import { User } from "../models/user"
 import { Todo } from "../models/todo"
 import { FastifyReply, FastifyRequest } from "fastify";
-// const UserController = require('./user');
   
   export const  create_todo = async(req:FastifyRequest, reply:FastifyReply) => {
     try {

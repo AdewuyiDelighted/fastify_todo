@@ -4,7 +4,6 @@ import { DataTypes } from 'sequelize';
 import {sequelize} from "../connectDB";
 import { User } from './user';
 
-// const User = require('./user');
 
 export class Todo extends Model {
   public id!: string;
